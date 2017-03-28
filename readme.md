@@ -17,7 +17,6 @@ fis.match("*.tpl",{
 - removeComments 移除页面注释，默认为true
 - collapseWhitespace 移除空格、回车、换行符等符号，默认为true
 - minifyJS 压缩页面内嵌的js代码，默认为true
-- preventAttributesEscaping  默认为true 防止转义属性.
 - ignoreCustomFragments  默认为[/<\?[\s\S]*?\?>/] 允许忽略匹配的规则内容,可以自定义规则。
 
 更多配置信息，请查看html-minifier的配置说明：  

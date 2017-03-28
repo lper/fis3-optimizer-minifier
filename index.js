@@ -8,7 +8,7 @@
  * @return {[string]}       压缩后的文件内容
  */
 var extend = require('node.extend');
-var minify = require("html-minifier").minify;
+var minify = require('./lib/htmlminifier').minify;
 
 module.exports = function(content, file, conf) {
     conf = extend(this.defaultOptions, conf);
@@ -19,6 +19,6 @@ module.exports.defaultOptions = {
     removeComments: true,
     collapseWhitespace:true,
     minifyJS:true,
-    preventAttributesEscaping:true,
+    isQuoteCharacter:false, //不转义
 	ignoreCustomFragments:[/<\?[\s\S]*?\?>/]
 };
