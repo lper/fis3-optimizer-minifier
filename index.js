@@ -20,5 +20,5 @@ module.exports.defaultOptions = {
     collapseWhitespace:true,
     minifyJS:true,
     isQuoteCharacter:true, //不转义
-	ignoreCustomFragments:[/<\?[\s\S]*?\?>/]
+    ignoreCustomFragments:[/<\?[\s\S]*?\?>/]
 };
