@@ -19,6 +19,6 @@ module.exports.defaultOptions = {
     removeComments: true,
     collapseWhitespace:true,
     minifyJS:true,
-    isQuoteCharacter:false, //不转义
+    isQuoteCharacter:true, //不转义
 	ignoreCustomFragments:[/<\?[\s\S]*?\?>/]
 };
