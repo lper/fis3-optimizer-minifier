@@ -20,6 +20,7 @@ module.exports.defaultOptions = {
     collapseWhitespace:true,
     minifyJS:true,
     minifyCSS:true,
+    isQuoteCharacter:true,
     attrMinfiyJs:false, //不压缩元素上绑定的js
     ignoreCustomFragments:[/<\?[\s\S]*?\?>/]
 };
