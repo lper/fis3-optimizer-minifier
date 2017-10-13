@@ -1,6 +1,6 @@
 {
   "name": "fis3-optimizer-minifier",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "fis3 html minify",
   "main": "index.js",
   "scripts": {
@@ -11,14 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "camel-case": "3.0.x",
-    "clean-css": "4.1.x",
-    "commander": "2.11.x",
+    "clean-css": "4.0.x",
+    "commander": "2.9.x",
     "he": "1.1.x",
     "ncname": "1.0.x",
     "param-case": "2.1.x",
     "relateurl": "0.2.x",
-    "uglify-js": "3.1.x",
-    "node.extend":"^2.0.0"
+    "uglify-js": "2.8.x",
+    "node.extend":"^1.1.6"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,6 @@
   "bugs": {
     "url": "https://github.com/ireaderfe/fis3-optimizer-minifier/issues"
   },
-  "_from": "fis3-optimizer-minifier@1.1.5",
-  "_resolved": "http://registry.npm.taobao.org/fis3-optimizer-minifier/download/fis3-optimizer-minifier-1.1.4.tgz"
+  "_from": "fis3-optimizer-minifier@1.1.6",
+  "_resolved": "http://registry.npm.taobao.org/fis3-optimizer-minifier/download/fis3-optimizer-minifier-1.1.6.tgz"
 }
